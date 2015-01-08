@@ -1,0 +1,8 @@
+Package: BRdecider
+Title: This helps you decide what drink to get at BR
+Version: 0.1
+Authors@R: "Joseph Lugo <joseph.r.lugo@gmail.com> [aut, cre]"
+Description: Ever have a hard time deciding what to get at BR? Well now you can use this and it will decide for you!
+Depends: R (>= 3.1.2)
+License: What license is it under?
+LazyData: true
