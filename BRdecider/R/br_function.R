@@ -5,7 +5,10 @@
 #' @keywords type
 #' @export
 #' @examples
-#' br_function()
+#' > br_function()
+#' You Should Get A Honeydew Chiller With Mixed Tapioca
+#' > br_function(type="Smash Oatmeal")
+#' You Should Get A Honeydew Smash Oatmeal With Small Tapioca
  
 br_function <- function(type="Chiller"){
 	x <- sample(1:4,1)
