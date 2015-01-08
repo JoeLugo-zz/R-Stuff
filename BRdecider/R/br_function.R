@@ -8,29 +8,30 @@
 #' br_function()
  
 br_function <- function(type="Chiller"){
-	x <- sample(1:10,1)
-	y <- sample(1:10,1)
+	x <- sample(1:4,1)
+	y <- sample(1:6,1)
   begin <- "You Should Get A"
 	
     if(type=="Chiller"){
-        if(x<=3){tapioca<-"With Large Tapioca"}
-        else if(x<=6){tapioca<-"With Small Tapioca"}
-        else if(x<=10){tapioca<-"With Mixed Tapioca"}
+        if(x==1){tapioca<-"With Large Tapioca"}
+        else if(x==2){tapioca<-"With Small Tapioca"}
+        else{tapioca<-"With Mixed Tapioca"}
 
-        if(y<=3){flavour<-"Honeydew"}
-        else if(y<=5){flavour<-"Taro"}
-        else if(y<=7){flavour<-"NEW"}
+        if(y==1){flavour<-"Honeydew"}
+        else if(y==2){flavour<-"Taro"}
+        else if(y==3){flavour<-"Taro Coconut"}
+        else if(y==4){flavour<-"NEW"}
         else{flavour<-"Pudding"}
         
         cat(begin,flavour,type,tapioca)
     }
     else {
-      if(x<=3){tapioca<-"With Large Tapioca"}
-      else if(x<=6){tapioca<-"With Small Tapioca"}
-      else if(x<=10){tapioca<-"With Mixed Tapioca"}
+      if(x==1){tapioca<-"With Large Tapioca"}
+      else if(x==2){tapioca<-"With Small Tapioca"}
+      else{tapioca<-"With Mixed Tapioca"}
       
-      if(y<=5){flavour<-"Honeydew"}
-      else if(y<=10){flavour<-"Taro"}
+      if(y<=3){flavour<-"Honeydew"}
+      else if(y<=6){flavour<-"Taro"}
       
       cat(begin,flavour,type,tapioca)
     }
