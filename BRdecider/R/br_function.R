@@ -31,7 +31,7 @@ br_function <- function(type="Chiller"){
       else{tapioca<-"With Mixed Tapioca"}
       
       if(y<=3){flavour<-"Honeydew"}
-      else{flavour<-"Taro"}
+      else{flavour<-"Original"}
       
       cat(begin,flavour,type,tapioca)
     }
